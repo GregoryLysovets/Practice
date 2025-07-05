@@ -1,13 +1,11 @@
 #include <stdio.h>
 
-// Функція для обчислення НСД (алгоритм Евкліда)
 int gcd(int a, int b) {
     if (b == 0)
         return a;
     return gcd(b, a % b);
 }
 
-// Функція для обчислення НСК кількох чисел
 int lcm(int numbers[], int count) {
     int result = numbers[0];
 
