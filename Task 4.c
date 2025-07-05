@@ -9,12 +9,12 @@ int main() {
         printf("The entered number does not satisfy the constraint. Try again.\n");
         return 0;
     }
-     for (int i = 1; i <= n; i++) {
+    for (int i = 1; i <= n; i++) {
         if (n % i == n / i) {
             count++;
         }
     }
-   printf("The number of equal divisors of the number %d is %d\n", n, count);
+    printf("The number of equal divisors of the number %d is %d\n", n, count);
 
     return 0;
 }
